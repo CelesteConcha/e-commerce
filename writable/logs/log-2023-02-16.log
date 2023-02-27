@@ -1,0 +1,79 @@
+CRITICAL - 2023-02-16 04:50:27 --> Invalid file: "home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\InicioWorld.php(14): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InicioWorld->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioWorld))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 04:51:04 --> Invalid file: "Home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Home', [], true)
+ 3 APPPATH\Controllers\InicioWorld.php(14): view('Home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InicioWorld->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioWorld))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 04:51:49 --> Invalid file: "inicio1.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio1.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inicio1', [], true)
+ 3 APPPATH\Controllers\InicioWorld.php(14): view('inicio1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InicioWorld->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioWorld))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 22:58:27 --> Undefined variable $vistas
+in APPPATH\Controllers\Contacto.php on line 20.
+ 1 APPPATH\Controllers\Contacto.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vistas', 'APPPATH\\Controllers\\Contacto.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 22:58:38 --> Undefined variable $vistas
+in APPPATH\Controllers\Contacto.php on line 20.
+ 1 APPPATH\Controllers\Contacto.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vistas', 'APPPATH\\Controllers\\Contacto.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:00:08 --> Undefined variable $vistas
+in APPPATH\Controllers\Contacto.php on line 21.
+ 1 APPPATH\Controllers\Contacto.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vistas', 'APPPATH\\Controllers\\Contacto.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:00:59 --> Undefined variable $vistas
+in APPPATH\Controllers\Contacto.php on line 21.
+ 1 APPPATH\Controllers\Contacto.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vistas', 'APPPATH\\Controllers\\Contacto.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:01:29 --> Undefined variable $vistas
+in APPPATH\Controllers\Contacto.php on line 21.
+ 1 APPPATH\Controllers\Contacto.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vistas', 'APPPATH\\Controllers\\Contacto.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:01:34 --> Undefined variable $vistas
+in APPPATH\Controllers\Contacto.php on line 21.
+ 1 APPPATH\Controllers\Contacto.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vistas', 'APPPATH\\Controllers\\Contacto.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:48:31 --> Invalid file: "plantilla/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('plantilla/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('intro', [], true)
+ 4 APPPATH\Controllers\intro.php(7): view('intro')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\intro->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\intro))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
