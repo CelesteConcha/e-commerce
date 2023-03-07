@@ -247,3 +247,13 @@
   </div>
   </div>
   </div>
+  </head>
+
+<body>
+  <div class="image-container">
+   <img src="<?php echo base_url()?>/imagenes/an.jpeg" alt="Descripción de la imagen">
+    <div class="image-overlay">
+  </div>
+  </div>
+
+  </div>

@@ -7,6 +7,7 @@
 		  position: fixed;
 		  bottom: 20px; /* Puedes ajustar la posición vertical */
 		  right: 20px; /* Puedes ajustar la posición horizontal */
+		  z-index: 2; 
 		}
 
 		#chatbot-button {

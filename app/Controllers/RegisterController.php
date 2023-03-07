@@ -15,3 +15,4 @@ class RegisterController extends BaseController{
     }
 
 }
+?>

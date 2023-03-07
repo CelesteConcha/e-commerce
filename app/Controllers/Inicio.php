@@ -6,10 +6,9 @@ class Inicio extends BaseController{
     public function index(){
         $data=['titulo'=>'Tienda'];
         $vistas= view('genericos/header',$data).
-                   view('genericos/anuncioflot').
                  view('genericos/navbar').
-                 view('genericos/jumbotron.php').
-                 view('genericos/carruselInicio'). 
+                 view('genericos/carruselInicio').
+                  view('genericos/jumbotron.php').
                   view('genericos/chatbot').    
                  view('genericos/cardsInicio.php').
                  view('genericos/contacto.php').
@@ -23,3 +22,4 @@ class Inicio extends BaseController{
     }
 
 }
+?>

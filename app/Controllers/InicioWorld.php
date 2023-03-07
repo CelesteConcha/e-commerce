@@ -23,3 +23,4 @@ class InicioWorld extends BaseController{
     }
 
 }
+?>

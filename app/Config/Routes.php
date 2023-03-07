@@ -32,7 +32,9 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->add('/Articulos','Articulos::mensaje');
 $routes->add('/contacto','Contacto::index');
+$routes->add('/guardar_persona','Contacto::mensaje');
 $routes->add('/catalogo/(:num)','Contacto::catalogo/$1');
+
 $routes->add('intro','intro::index');
 //Rutas de pagina de venta de videojuegos
 $routes->add('inicio','Inicio::index');

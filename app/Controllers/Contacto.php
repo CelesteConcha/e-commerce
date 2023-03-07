@@ -1,6 +1,6 @@
 <?php
 namespace App\Controllers;
-
+use     App\Models\Registrar;
 class Contacto extends BaseController{
     
     public function index(){
@@ -34,6 +34,17 @@ class Contacto extends BaseController{
         echo $valor1."<br>".$valor2."<br>".$valor3;
 
     }
+    public function guardar_persona(){
+        $data=[
+            "nombre" =>$POST["nombre"],
+            "direccion" =>$POST["direccion"],
+            "correo" =>$POST["correo"],
+        ];
+        $registrar=new Registrar();
+        $registrar->insert($data);
+        echo json_encode(["mensaje"=>"creado el registro"]);
+    }
 
 
 }
+?>
